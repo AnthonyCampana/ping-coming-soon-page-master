@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/style.css">
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <img class="logo" src="./images/logo.svg" alt="Company logo image">
+      <h1 class="title">We are launching <span>soon!</span></h1>
+      <p class="call-to-action">Subscribe and get notified</p>
+      <form id="form" action="">
+        <input  id="textBox" type="email" placeholder="Your email address...">
+        <input id="submit" type="submit" value="Notify Me">
+      </form>
+      <p class="error-message"> Please provide a valid email address </p>
+      <img class="dashboard" src="./images/illustration-dashboard.png" alt="Dashboard image">
+      <div class="social-media">
+        <div id="facebook-logo">
+          <img src="./images/facebook.svg" alt="facebook-logo" >
+        </div>
+        <div id="twitter-logo">
+          <img src="./images/logo-twitter.svg" alt="twitter-logo">
+        </div>
+        <div id="instagram-logo">
+          <img src="./images/logo-instagram.svg" alt="instagram-logo">
+        </div>
+      </div>
+      <p class="copyright-message">&copy; Copyright Ping. All rights reserved.</p>
+    </div>
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Anthony Campana</a>.
+    </p>
+  </footer>
+</body>
+<script src="./scripts/emailValidation.js"></script>
+</html>

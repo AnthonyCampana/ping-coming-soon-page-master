@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100..900&display=swap');
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+@media screen and (min-width: 751px) {
+    body {
+        width: 100vw;
+        height: 101vh;
+    }
+    main {
+        width: 100%;
+        height: 99.011%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container {
+        width: 44.7%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        margin-top: 5.3rem;
+    }
+    .title {
+        margin-top: 3rem;
+        font-family: "Libre Franklin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 48.2px;
+        color: hsl(0, 0%, 59%);
+    }
+    .title > span {
+        font-weight: 700;
+        color: hsl(209, 33%, 12%);
+    }
+    .call-to-action {
+        margin-top: 1.1rem;
+        font-family: "Libre Franklin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20.1px;
+    }
+    form {
+        margin-top: 2.4rem;
+        margin-left: 10.2px;
+        width: 100%;
+        height: 4.1rem;
+    }
+    #textBox {
+        width: 60.6%;
+        height: 3.5rem;
+        border-radius: 10rem;
+        border: 1px solid hsl(0, 0%, 59%, .2);
+        margin-right: 0.7rem;
+        font-size: 16.4px;
+        font-family: "Libre Franklin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        padding-left: 1.7rem;
+    }
+    #submit {
+        width: 31.6%;
+        height: 3.6rem;
+        border: 0px;
+        border-radius: 49px;
+        font-size: 15.9px;
+        font-family: "Libre Franklin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        background-color: hsl(223, 87%, 63%);
+        color: white;
+    }
+    #submit:hover {
+        background-color: hsl(223, 87%, 63%, .8);
+    }
+    .error-message {
+        display: none;
+        font-family: "Libre Franklin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-size: 12.46px;
+        color: hsl(354, 100%, 66%);
+        margin-right: 23.2rem;
+    }
+    .dashboard {
+        width: 99.3%;
+        margin-top: 4.9rem;
+    }
+    .social-media {
+        height: 2.8%;
+        width: 18.4%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 4.6rem;
+        margin-bottom: 1.6rem;
+    }
+    .social-media > div {
+        width: 24%;
+        height: 100%;
+        border-radius: 50%;
+        border: 1px solid hsl(0, 0%, 59%, .2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #facebook-logo > img {
+        width: 57%;
+        filter: invert(46%) sepia(69%) saturate(3021%) hue-rotate(208deg) brightness(97%) contrast(97%);
+    }
+    #twitter-logo > img {
+        width: 52%;
+        filter: invert(46%) sepia(69%) saturate(3021%) hue-rotate(208deg) brightness(97%) contrast(97%);
+    }
+    #instagram-logo > img {
+        width: 53%;
+        filter: invert(46%) sepia(69%) saturate(3021%) hue-rotate(208deg) brightness(97%) contrast(97%);
+    }
+    .social-media > div:hover {
+        background-color: hsl(223, 87%, 63%);
+    }
+    #facebook-logo > img:hover {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(335deg) brightness(105%) contrast(101%);
+    }
+    #twitter-logo > img:hover {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(335deg) brightness(105%) contrast(101%);
+    }
+    #instagram-logo > img:hover {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(335deg) brightness(105%) contrast(101%);
+    }
+    .copyright-message {
+        font-family: "Libre Franklin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 12px;
+        color: hsl(0, 0%, 59%);
+    }  
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        width: 100vw;
+        height: 101vh;
+    }
+    main {
+        width: 100%;
+        height: 99.011%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container {
+        width: 85%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        margin-top: 10.5rem;
+        height: 2%;
+        margin-left: .2rem;
+        width: 17%;
+    }
+    .title {
+        margin-top: 4.9rem;
+        font-family: "Libre Franklin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 44px;
+        color: hsl(0, 0%, 59%);
+    }
+    .title > span {
+        font-weight: 700;
+        color: hsl(209, 33%, 12%);
+    }
+    .call-to-action {
+        margin-top: 2.25rem;
+        font-family: "Libre Franklin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 24px;
+        margin-left: .1rem;
+    }
+    form {
+        margin-top: 4.0rem;
+        margin-left: 10.2px;
+        width: 100%;
+        height: 11.3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    #textBox {
+        width: 77.9%;
+        height: 4.8rem;
+        border-radius: 10rem;
+        border: 1px solid hsl(0, 0%, 59%, .2);
+        font-size: 24.3px;
+        font-family: "Libre Franklin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        padding-left: 3.9rem;
+        margin-left: 2.2rem;
+    }
+    #submit {
+        width: 88.6%;
+        height: 5rem;
+        border: 0px;
+        border-radius: 49px;
+        font-size: 24px;
+        font-family: "Libre Franklin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        background-color: hsl(223, 87%, 63%);
+        color: white;
+        margin-top: 1.3rem;
+        margin-left: 2rem;
+    }
+    #submit:hover {
+        background-color: hsl(223, 87%, 63%, .8);
+    }
+    .error-message {
+        display: none;
+        font-family: "Libre Franklin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-size: 20.7px;
+        color: hsl(354, 100%, 66%);
+        margin-right: 13rem;
+        position: relative;
+        bottom: 9.4rem;
+        left: 6.6rem;
+    }
+    .dashboard {
+        width: 100%;
+        margin-top: 8.4rem;
+        height: 24.1%;
+    }
+    .social-media {
+        height: 3.8%;
+        width: 37%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 14.95rem;
+        margin-bottom: 1.6rem;
+    }
+    .social-media > div {
+        width: 25%;
+        height: 100%;
+        border-radius: 50%;
+        border: 1px solid hsl(0, 0%, 59%, .2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #facebook-logo > img {
+        width: 50%;
+        filter: invert(46%) sepia(69%) saturate(3021%) hue-rotate(208deg) brightness(97%) contrast(97%);
+    }
+    #twitter-logo > img {
+        width: 48%;
+        filter: invert(46%) sepia(69%) saturate(3021%) hue-rotate(208deg) brightness(97%) contrast(97%);
+    }
+    #instagram-logo > img {
+        width: 55%;
+        filter: invert(46%) sepia(69%) saturate(3021%) hue-rotate(208deg) brightness(97%) contrast(97%);
+    }
+    .social-media > div:hover {
+        background-color: hsl(223, 87%, 63%);
+    }
+    #facebook-logo > img:hover {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(335deg) brightness(105%) contrast(101%);
+    }
+    #twitter-logo > img:hover {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(335deg) brightness(105%) contrast(101%);
+    }
+    #instagram-logo > img:hover {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(335deg) brightness(105%) contrast(101%);
+    }
+    .copyright-message {
+        font-family: "Libre Franklin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20.2px;
+        color: hsl(0, 0%, 59%);
+        margin-top: 1.8rem;
+    }
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
